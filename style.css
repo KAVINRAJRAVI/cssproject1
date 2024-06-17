@@ -1,0 +1,732 @@
+*{
+  margin:0px;
+  padding: 0%;
+
+}
+.indexbody{
+  background-image: url(image/background\ image.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.pic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+[title~="flower"]{
+  border: 1px solid white;
+}
+div.one:hover img{
+  border: 5px solid yellow;
+  cursor: pointer;
+  height: 100vh;
+  width: 100%;
+}
+div.two:hover img{
+  border: 5px solid yellow ;
+  height: 100vh;
+  width: 100%;
+  cursor: pointer;
+}
+div.three:hover img{
+  border: 5px solid yellow ;
+  height: 100vh;
+  width: 100%;
+  cursor: pointer;
+}
+.font{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: azure;
+  font-size: 80px;
+  position: relative;
+  top:10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.dis{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(233, 84, 30);
+  font-size: 80px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+.off{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(237, 233, 233);
+  font-size: 40px;
+  position: relative;
+  bottom:10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.para{
+  color: white;
+  width: 1000px;
+  height: auto;
+  font-size: larger;
+  font-weight: 400;
+  position: relative;
+  left: 17%;
+  right: 80%;
+}
+div.demo > h1{
+  color: darkgoldenrod;
+  font-size: xx-large;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.demop{
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: large;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.demo{
+  position: relative;
+  top:100px;
+}
+.number{
+  float: right;
+  margin-right: 50px;
+  margin-top:18px;
+  color: darkgoldenrod;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+.phone{
+  position: relative;
+  left: 1300px;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  margin-top: 70px;
+}
+.buttont{
+  height: 50px;
+  width: 250px;
+  background-color: white;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  position: relative;
+  left: 650px;
+  bottom: 60px;
+  transition: width 1s,height 1s, transform 1s,border-radius 1s;
+}
+
+.buttont{
+  box-shadow: 5px 5px 8px rgb(105, 83, 83),4px 5px rgb(244, 239, 239),3px 2px  rgb(203, 233, 11) ;
+  animation-name: effect;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+} 
+@keyframes effect{
+  from {height: 50px;width: 250px;}
+  to {height: 60px;width: 280px;}
+}
+.buttont:active{
+  border-radius: 250%;
+  transform: rotate(360deg);
+  cursor: none;
+  color: white;
+  background-color: rgb(65, 207, 255);
+}
+.choosebody{
+  background-image: url(image/choose\ background\ image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  
+}
+.fitnesscard{
+   font-size: xx-large;
+   font-weight: 800;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 30px;
+}
+.choose{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  column-gap: 100px ;
+  align-items: center;
+  margin-top: 100px;
+}
+.fitness{
+  background-color:black;
+  border: 1px solid rgb(6, 6, 219) ;
+  border-radius: 5px;
+  box-sizing: border-box; 
+  box-shadow: 2px 5px 10px 10px rgb(235, 231, 231);  
+}
+.bodybuilding{
+  background-color:rgb(44, 44, 44);
+  border: 1px solid rgb(6, 6, 219) ;
+  border-radius: 5px;
+  box-sizing: border-box;   
+  box-shadow: 2px 5px 10px 10px rgb(235, 231, 231);  
+}
+.sports{
+  border: 1px solid rgb(6, 6, 219) ;
+  border-radius: 5px;
+  box-sizing: border-box;   
+  background-color: black;
+  box-shadow: 2px 5px 10px 10px rgb(235, 231, 231);  
+
+}
+.fitness:hover{
+  transform: scale(1.2);
+  transition: 2s;
+}
+.bodybuilding:hover{
+  transform: scale(1.2);
+  transition: 2s;
+}
+.chooselink{
+  text-decoration:none ;
+  color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.sports:hover{
+  transform: scale(1.2);
+  transition: 2s;
+}
+.navbar{
+  display: flex;
+  width: 12%;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgb(136, 132, 132);
+  color:rgb(24, 22, 22);
+  position: fixed;
+  align-items: center;
+
+}
+.navlist{
+  list-style: none;
+  font-size: x-large;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 100%;
+  margin:30px;
+}
+
+.navcontent{
+  padding: 15px;
+  
+}
+.navcontent:hover{
+border: 2px solid white;
+}
+ .navcontent:active{
+  background-color: chartreuse;
+  color: black;
+} 
+
+.a{
+  text-decoration: none;
+  color: black;
+}
+.headerhome{
+  width: 100%;
+  height: 80px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color:red;
+  padding-top: 50px;
+
+}
+.imggalary{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 12%; 
+   overflow-y: scroll; 
+   justify-content: space-around;
+   row-gap: 20px;
+   align-content: space-around;
+   color: aliceblue;
+   background-color: black;
+  
+}
+ .d img{
+  width: 100%;
+ }
+.d{
+  flex-basis: 25.3%;
+  box-shadow: 1px 1px 5px 5px whitesmoke;
+  width:350px;
+  height: 400px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  /* background-color: cyan; */
+  color: #070a11;
+}
+.d:hover{
+  border: 8px solid whitesmoke;
+  cursor: pointer;
+}
+.k{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 12px;
+  color: rgb(233, 84, 30);
+}
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 12%; 
+   overflow-y: scroll; 
+   justify-content: space-around;
+   row-gap: 50px;
+   align-content: space-around;
+   background-color: rgb(2, 2, 2);
+   color: aliceblue;
+}
+.headerproduct{
+  height: 12px;
+  width: 100%;
+}
+ .e{
+  box-shadow: 2px 2px 10px 10px white;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 120px;
+}
+.pro{
+  color: red;
+  text-align: center;
+  margin-top: 15px;
+  font-size: xx-large;
+  font-weight: 800;
+}
+.bu{
+  margin-left: 160px;
+  margin-top: 10px;
+  height: 40px;
+  width: 120px;
+  color: azure;
+  background-color: brown;
+  box-shadow: 2px 2px 5px 5px maroon;
+  border-radius: 5px;
+}
+.e:hover{
+  border: 4px solid black;
+  cursor: pointer;
+}
+.bu:hover{
+  border: 2px solid black;
+  transform: scale(1.2);
+}
+.login{
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+.log{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 50%;
+  height: 50%;
+  height: auto;
+  margin-left: 30%;
+  margin-top: 10%;
+  box-shadow: 2px 2px 10px 10px rgb(211, 223, 223);
+  border: 3px solid white;
+  background-color:white;
+  z-index: 2;
+
+}
+input[type=text],input[type=email] ,input[type=password]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit]{
+  width: 30%;
+  height: 40px;
+  background-color: blue;
+  color:white;
+  border-radius: 6px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 5px 20px;
+  margin-left:30%;
+  margin-top:9px;
+  font-size:x-large;
+}
+.dietp{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  row-gap:40px;
+  column-gap:40px;
+  margin-left: 12%;
+}
+.day{
+  height: 250px;
+  width: 300px;
+ background-image: url(image/day.jpg);
+ background-attachment: fixed;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+  border: 3px solid white;
+  color: rgb(82, 7, 7);
+  text-align: center;
+  flex-basis: 29%;
+ border-radius: 15px;
+ box-sizing: border-box;
+ border: 1px solid gainsboro;
+ align-items: end;
+ margin-top: 30px;
+
+}
+.daya{
+  padding: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.day:hover{
+  border: 3px solid black;
+}
+.headbar{
+  height: 250px;
+  display: flex;
+  margin-left: 12%;
+  background-color: rgb(255, 245, 245);
+  align-items: center;
+  justify-content: center;
+}
+.headtitle{
+  flex-basis: 25%;
+  margin-left:30px ;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 60px;
+  background-color:rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 1px solid rgb(249, 247, 243);
+  box-shadow: 1px 1px 3px 3px rgb(240, 247, 247);
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 45px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.attendence{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 8%;
+  text-transform: uppercase;
+  font-size: x-large;
+}
+.home{
+  background-color: rgb(255, 245, 245);
+  margin-left: 12%;
+  width: 88%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 150px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div.headtitle > p{
+  font-size: 30px;
+  font-weight:bolder;
+  margin-bottom: 80px;
+}
+.abouta{
+  height: 100vh;
+  width: 88%;
+  margin-left: 12%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  background-color: #2a2a2e;
+}
+.aboutb{
+  height: 100vh;
+}
+div.aboutb img{
+  width: 100%;
+  height: 100vh;
+}
+.aboutc{
+   color: azure;
+   box-sizing: border-box;
+   height: 100vh;
+}
+div.aboutc > h1{
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+div.aboutc > p{
+
+    margin-left: 80px;
+    font-weight: 900;
+    margin-top: 25px;
+    font-size: larger;
+  }
+  
+  .home1{
+    height: 400px;
+    width: 800px;
+    background-image: url(image/shoulder.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+  border: 9px solid #ff5e5e;
+  box-shadow: 3px 3px 3px 3px black;
+  border-radius: 50px;
+  margin-top: 60px;
+  }
+  .home2{
+    height: 400px;
+    width: 800px;
+    background-image: url(image/lats\ workout.jpg);
+   background-repeat: no-repeat;
+   background-position-x: top;
+   background-size: cover;
+   box-shadow: 3px 3px 3px 3px black;
+  border: 9px solid #ff5e5e;
+  border-radius: 50px;
+  }
+  .home3{
+    height: 400px;
+    width: 800px;
+    background-image: url(image/biceps.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center center;
+    background-size:cover;
+  object-fit:fill;
+  border: 9px solid #ff5e5e;
+  box-shadow: 3px 3px 3px 3px black;
+  border-radius: 50px;
+  }
+  .home4{
+    height: 400px;
+    width: 800px;
+    background-image: url(image/trisaps.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: cover;
+  border: 9px solid  #ff5e5e;
+  box-shadow: 3px 3px 3px 3px black;
+  border-radius: 50px;
+  }
+ 
+  .home5{
+    height: 400px;
+    width: 800px;
+    background-image: url(image/chest.jpg);
+    background-repeat: no-repeat;
+    background-position-x: top;
+    background-size: cover;
+  border: 9px solid #ff5e5e;
+  box-shadow: 3px 3px 3px 3px black;
+  border-radius: 50px;
+  }
+  .home6{
+    height: 400px;
+    width: 800px;
+    background-image: url(image/thaies.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: cover;
+    box-shadow: 3px 3px 3px 3px black;
+  border: 9px solid #ff5e5e;
+  border-radius: 50px;
+  }
+  .home7{
+    height: 400px;
+    width: 800px;
+    background-image: url(image/abbs\ workout.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: cover;
+  border: 9px solid #ff5e5e;
+  box-shadow: 3px 3px 3px 3px black;
+  border-radius: 50px;
+  }
+
+  div.home1 > h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 200px;
+    text-align: center;
+  }
+  div.home1 > button{
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px; 
+   position: relative;
+   bottom: 180px;
+   left: 330px;
+  }
+  div.home2 > h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 200px;
+    text-align: center;
+  }
+  div.home2 > button{
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px; 
+   position: relative;
+   bottom: 180px;
+   left: 330px;
+  }
+  div.home3 > h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 200px;
+    text-align: center;
+  }
+  div.home3 > button{
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px; 
+   position: relative;
+   bottom: 180px;
+   left: 330px;
+  }
+  div.home4 > h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 200px;
+    text-align: center;
+  }
+  div.home4 > button{
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px; 
+   position: relative;
+   bottom: 180px;
+   left: 330px;
+  }
+  div.home5 > h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 200px;
+    text-align: center;
+  }
+  div.home5 > button{
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px; 
+   position: relative;
+   bottom: 180px;
+   left: 330px;
+  }
+  div.home6 > h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 200px;
+    text-align: center;
+  }
+  div.home6 > button{
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px; 
+   position: relative;
+   bottom: 180px;
+   left: 330px;
+  }
+  div.home7 > h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 200px;
+    text-align: center;
+  }
+  div.home7 > button{
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px; 
+   position: relative;
+   bottom: 180px;
+   left: 330px;
+  }
+  footer{
+    height: 250px;
+    width: 100%;
+    background-color:darkcyan;
+    color: aliceblue;
+  }
+  footer > ol{
+    margin-left: 50%;
+    font-size: large;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: white;
+  }
+  .kkk{
+    color: whitesmoke;
+  }
+  footer >  div{
+    text-align: center;
+    margin-top: 50px;
+    font-size: large;
+    color: white;
+  }
